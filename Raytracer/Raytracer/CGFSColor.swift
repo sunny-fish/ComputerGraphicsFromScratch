@@ -21,4 +21,23 @@ struct CGFSColor {
         self.a = a
     }
     
+    static func *(lhs: CGFSColor, rhs: Double) -> CGFSColor {
+        return CGFSColor(
+            r: UInt8(min(Double(lhs.r) * rhs, Double(UInt8.max))),
+            g: UInt8(min(Double(lhs.g) * rhs, Double(UInt8.max))),
+            b: UInt8(min(Double(lhs.b) * rhs, Double(UInt8.max))),
+            a: lhs.a
+        )
+    }
+    
+    static func *(lhs: Double, rhs: CGFSColor) -> CGFSColor {
+        return CGFSColor(
+            r: UInt8(min(Double(rhs.r) * lhs, Double(UInt8.max))),
+            g: UInt8(min(Double(rhs.g) * lhs, Double(UInt8.max))),
+            b: UInt8(min(Double(rhs.b) * lhs, Double(UInt8.max))),
+            a: rhs.a
+        )
+    }
+
+
 }

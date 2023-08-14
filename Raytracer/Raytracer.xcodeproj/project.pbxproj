@@ -11,6 +11,8 @@
 		0735F85C2A87186D009BA786 /* CGFSVec3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0735F85B2A87186D009BA786 /* CGFSVec3.swift */; };
 		0735F85E2A87CDF6009BA786 /* CGFSSphere.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0735F85D2A87CDF6009BA786 /* CGFSSphere.swift */; };
 		0735F8602A87CE5F009BA786 /* CGFSScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0735F85F2A87CE5F009BA786 /* CGFSScene.swift */; };
+		0735F8622A89A083009BA786 /* CGFSLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0735F8612A89A083009BA786 /* CGFSLight.swift */; };
+		0735F8642A89A1B2009BA786 /* CGFSTracer2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0735F8632A89A1B2009BA786 /* CGFSTracer2.swift */; };
 		078A8A612A81C3C400C3D9E4 /* RaytracerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078A8A602A81C3C400C3D9E4 /* RaytracerApp.swift */; };
 		078A8A632A81C3C400C3D9E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078A8A622A81C3C400C3D9E4 /* ContentView.swift */; };
 		078A8A652A81C3C500C3D9E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 078A8A642A81C3C500C3D9E4 /* Assets.xcassets */; };
@@ -44,6 +46,8 @@
 		0735F85B2A87186D009BA786 /* CGFSVec3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGFSVec3.swift; sourceTree = "<group>"; };
 		0735F85D2A87CDF6009BA786 /* CGFSSphere.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGFSSphere.swift; sourceTree = "<group>"; };
 		0735F85F2A87CE5F009BA786 /* CGFSScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGFSScene.swift; sourceTree = "<group>"; };
+		0735F8612A89A083009BA786 /* CGFSLight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGFSLight.swift; sourceTree = "<group>"; };
+		0735F8632A89A1B2009BA786 /* CGFSTracer2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGFSTracer2.swift; sourceTree = "<group>"; };
 		078A8A5D2A81C3C400C3D9E4 /* Raytracer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Raytracer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		078A8A602A81C3C400C3D9E4 /* RaytracerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaytracerApp.swift; sourceTree = "<group>"; };
 		078A8A622A81C3C400C3D9E4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -114,7 +118,9 @@
 				0735F85D2A87CDF6009BA786 /* CGFSSphere.swift */,
 				0735F85F2A87CE5F009BA786 /* CGFSScene.swift */,
 				078A8A8D2A81C4CC00C3D9E4 /* CGFSCanvas.swift */,
+				0735F8612A89A083009BA786 /* CGFSLight.swift */,
 				0735F8592A870896009BA786 /* CGFSTracer1.swift */,
+				0735F8632A89A1B2009BA786 /* CGFSTracer2.swift */,
 				078A8A642A81C3C500C3D9E4 /* Assets.xcassets */,
 				078A8A692A81C3C500C3D9E4 /* Raytracer.entitlements */,
 				078A8A662A81C3C500C3D9E4 /* Preview Content */,
@@ -280,6 +286,8 @@
 				078A8A632A81C3C400C3D9E4 /* ContentView.swift in Sources */,
 				078A8A8E2A81C4CC00C3D9E4 /* CGFSCanvas.swift in Sources */,
 				0735F85E2A87CDF6009BA786 /* CGFSSphere.swift in Sources */,
+				0735F8622A89A083009BA786 /* CGFSLight.swift in Sources */,
+				0735F8642A89A1B2009BA786 /* CGFSTracer2.swift in Sources */,
 				0735F8602A87CE5F009BA786 /* CGFSScene.swift in Sources */,
 				078A8A8C2A81C44400C3D9E4 /* CGFSColor.swift in Sources */,
 				078A8A612A81C3C400C3D9E4 /* RaytracerApp.swift in Sources */,
