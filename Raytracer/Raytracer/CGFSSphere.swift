@@ -11,4 +11,12 @@ struct CGFSSphere {
     let center: CGFSVec3
     let radius: Double
     let color: CGFSColor
+    let specular: Double
+    
+    init(center: CGFSVec3, radius: Double, color: CGFSColor, specular: Double = 0.0) {
+        self.center = center
+        self.radius = radius
+        self.color = color
+        self.specular = specular
+    }
 }

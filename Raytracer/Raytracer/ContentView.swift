@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     
-    let tracer = CGFSTracer2()
+    let tracer = CGFSTracer3()
     
     var body: some View {
         VStack {
